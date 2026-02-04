@@ -1,29 +1,27 @@
-# 📚 Java Library for Generating and Executing SQL Scripts in a MySQL Database
+# 📖 Java Library for Implementing Access Control Based on the RBAC Model (Role-Based Access Control)
 
-This repository contains the implementation of a **library developed in the Java programming language**, capable of connecting to a **MySQL** database and executing or generating SQL scripts for database and table creation, while respecting the **existing relationships between them**.
+This repository contains the implementation of a **Java library** that allows developers to automate **internal access control** within a system.
 
-📝 The application was developed following the **SOLID principles** and using the creational design patterns **Singleton** and **Factory Method**.
+📝 This framework was built using the **Singleton** creational design pattern and the **Facade** structural design pattern, as well as leveraging features like **Fluent Interface** and **Reflection**.
 
-💻 The library currently supports only the **generation and execution of SQL scripts for MySQL databases**. However, by using the **Factory Method** design pattern, the library can be **extended to support other relational database management systems**, without requiring changes to the existing source code.
+🧑‍💻 The library supports the creation of the tables **user, role, permission, user_role, and role_permission**, which are necessary to implement the RBAC model in systems using relational databases. It also allows for data insertion and manipulation, as well as enabling or blocking the execution of functions based on the roles assigned to a specific user.
 
----
+## 📦 This Repository Contains
 
-## 📦 Repository Contents
-
-- Project source files  
-- Compiled library (`.jar`)  
-- Class diagram (`.pdf`)  
-
----
+- Project files  
+- The library `.jar` file  
+- Class diagram in `.pdf` format  
 
 ## ⚙️ Features
 
-- 🛠️ Execute SQL scripts to create databases and tables in a **MySQL database**
-- 📄 Generate SQL scripts for database and table creation, following **MySQL syntax**, and present them to the user
-
----
+- 🛠️ Execution of SQL scripts to create the tables **user, role, permission, user_role, and role_permission** in a **MySQL** database  
+- 📄 Insertion and manipulation of data in a **MySQL** database  
+- 🗄️ Support for other relational databases  
+- 🔒 Access control for **protected functions** within a system based on the roles assigned to a specific user  
 
 ## 🧰 Technologies Used
 
 - Java ☕  
 - MySQL 🗄️  
+- Reflection 🪞  
+- Fluent Interface ✨
