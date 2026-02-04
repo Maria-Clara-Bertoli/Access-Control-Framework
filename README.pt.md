@@ -6,15 +6,11 @@ Este repositório contém a implementação de uma **biblioteca desenvolvida na 
 
 🧑‍💻 A biblioteca oferece suporte para a criação das tabelas **user, role, permission, user_role e role_permission**, necessárias para aplicar o modelo RBAC em sistemas que utilizam bancos de dados relacionais. Também possibilita a inserção e manipulação de dados, bem como o bloqueio ou a liberação da execução de funções com base nos papéis atribuídos a um determinado usuário.
 
----
-
 ## 📦 Este repositório contém:
 
 - Os arquivos do projeto  
 - A biblioteca com extensão `.jar`  
-- O diagrama de classes com extensão `.pdf`  
-
----
+- O diagrama de classes com extensão `.pdf`
 
 ## ⚙️ Funcionalidades
 
@@ -22,8 +18,6 @@ Este repositório contém a implementação de uma **biblioteca desenvolvida na 
 - 📄 Inserção e manipulação de dados em um banco de dados **MySQL**
 - 🗄️ Suporte a outros bancos de dados relacionais  
 - 🔒 Controle de acesso a **funções protegidas** dentro de um sistema, com base nos papéis atribuídos a um determinado usuário 
-
----
 
 ## 🧰 Tecnologias Utilizadas
 
